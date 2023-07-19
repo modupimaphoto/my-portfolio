@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
 body {
   font-family: monospace;
+  background: url("./assets/Shiny Overlay.svg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 .showcase {
   height: 100vh;
@@ -12,6 +16,9 @@ body {
 .showcase p {
   font-size: 4.5em;
 }
+.showcase i {
+  font-size: 1em;
+}
 .showcase span:first-child,
 .about-me-heading span:first-child {
   color: #ff9001;
@@ -21,8 +28,8 @@ body {
 .showcase span:last-child,
 .about-me-heading span:last-child {
   color: white;
-  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
-    1px 1px 0 #000000;
+  text-shadow: -1px -1px 0 #ff9001, 1px -1px 0 #ff9001, -1px 1px 0 #ff9001,
+    1px 1px 0 #ff9001;
   font-weight: bold;
 }
 .about-me-heading {
@@ -32,8 +39,26 @@ body {
   font-size: 1.2em;
   margin-top: 10px;
 }
-.name,
-.email a,
-i {
-  color: #ff9001;
+.my-resume{
+	color: white;
+	background-color: #ff9001;
+	text-decoration: none;
+	padding:  10px 16px;
+}
+@media screen and (max-width: 876px) {
+	.showcase {
+	  padding: 20%;
+	}
+	.showcase h1 {
+	  font-size: 2em;
+	}
+	.showcase p {
+	  font-size: 2.5em;
+	}
+	.showcase i {
+	  font-size: 1em;
+	}
+	.about-me-heading {
+	  margin-top: 20px;
+	}
 }
