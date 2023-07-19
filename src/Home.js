@@ -19,11 +19,14 @@ const Home = () => {
                 </a>
               </li>
               <li className="list-inline-item mx-4">
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook"></i>
               </li>
               <li className="list-inline-item mx-4">
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </li>
+			  <li className="list-inline-item mx-4">
+				<i className="fa-brands fa-github"></i>
+			  </li>
             </ul>
           </p>
         </div>
@@ -39,11 +42,11 @@ const Home = () => {
                 className="img-fluid"
               />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-7 p-3">
               <h1 className="pt-5 about-me-heading">
                 <span>About</span> <span>Me</span>
               </h1>
-              <p className="about-me-text">
+              <p className="about-me-text text-light mb-4">
                 My Name is <span>Modupi</span>, I'm creative and skilled Front
                 End Developer with experience in HTML, CSS, JavaScript, React,
                 MySQL and Bootstrap. I have experience in developing responsive
@@ -51,10 +54,41 @@ const Home = () => {
                 user-friendly interfaces and I am always looking for new
                 challenges to improve my skills.
               </p>
+              <a href="https://www.jobseeker.com/d/3lUqA8zEy4gXyDSpV7TIki/view" className="my-resume">
+                My Resume
+              </a>
             </div>
           </div>
         </div>
       </section>
+	  <footer className="pt-5 pb-5">
+		<div className="container text-center">
+			<div>
+				<ul className="p-0">
+				  <li className="list-inline-item mx-4">
+					<a
+					  className="text-decoration-none mx-2"
+					  href="mailto:modupimaphoto@gmail.com"
+					>
+					  <i className="fa-regular fa-envelope"></i>
+					</a>
+				  </li>
+				  <li className="list-inline-item mx-4">
+					<i className="fa-brands fa-facebook"></i>
+				  </li>
+				  <li className="list-inline-item mx-4">
+					<i className="fa-brands fa-instagram"></i>
+				  </li>
+				  <li className="list-inline-item mx-4">
+					<i className="fa-brands fa-github"></i>
+				  </li>
+				</ul>
+			</div>
+			<div>
+				modupimaphoto
+			</div>
+		</div>
+	  </footer>
     </>
   );
 };
