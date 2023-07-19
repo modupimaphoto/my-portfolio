@@ -3,32 +3,38 @@ const Home = () => {
   return (
     <>
       <section className="showcase">
-        <div className="container text-center">
-          <h1>Hello, I'm</h1>
+        <div className="container">
+          <h1 className="text-white">Hello, I'm</h1>
           <p>
             <span>Frontend</span> <span>Developer</span>
           </p>
-          <p>
+          <div>
             <ul className="p-0">
-              <li className="list-inline-item mx-4">
-                <a
-                  className="text-decoration-none mx-2"
-                  href="mailto:modupimaphoto@gmail.com"
-                >
-                  <i className="fa-regular fa-envelope"></i>
-                </a>
-              </li>
-              <li className="list-inline-item mx-4">
-                <i className="fa-brands fa-facebook"></i>
-              </li>
-              <li className="list-inline-item mx-4">
-                <i className="fa-brands fa-instagram"></i>
-              </li>
-			  <li className="list-inline-item mx-4">
-				<i className="fa-brands fa-github"></i>
+			  <li className="list-inline-item">
+				<a
+				  className="text-decoration-none mx-2"
+				  href="mailto:modupimaphoto@gmail.com"
+				>
+				  <i className="fa-regular fa-envelope"></i>
+				</a>
 			  </li>
-            </ul>
-          </p>
+			  <li className="list-inline-item mx-4">
+				<a href="">
+					<i className="fa-brands fa-facebook"></i>
+				</a>
+			  </li>
+			  <li className="list-inline-item mx-4">
+				<a href="">
+					<i className="fa-brands fa-instagram"></i>
+				</a>
+			  </li>
+			  <li className="list-inline-item mx-4">
+				<a href="">
+					<i className="fa-brands fa-github"></i>
+				</a>
+			  </li>
+			</ul>
+          </div>
         </div>
       </section>
 
@@ -61,7 +67,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-	  <footer className="pt-5 pb-5">
+	  <footer className="pt-5 pb-5 text-white">
 		<div className="container text-center">
 			<div>
 				<ul className="p-0">
@@ -74,13 +80,19 @@ const Home = () => {
 					</a>
 				  </li>
 				  <li className="list-inline-item mx-4">
-					<i className="fa-brands fa-facebook"></i>
+					<a href="">
+						<i className="fa-brands fa-facebook"></i>
+					</a>
 				  </li>
 				  <li className="list-inline-item mx-4">
-					<i className="fa-brands fa-instagram"></i>
+					<a href="">
+						<i className="fa-brands fa-instagram"></i>
+					</a>
 				  </li>
 				  <li className="list-inline-item mx-4">
-					<i className="fa-brands fa-github"></i>
+					<a href="">
+						<i className="fa-brands fa-github"></i>
+					</a>
 				  </li>
 				</ul>
 			</div>

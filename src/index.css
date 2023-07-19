@@ -1,32 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 body {
-  font-family: monospace;
-  background: url("./assets/Shiny Overlay.svg") no-repeat;
+  font-family: 'Ubuntu', sans-serif;
+  background: url("./assets/hexagon.svg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
 }
 .showcase {
-  height: 100vh;
-  padding: 10%;
+	padding-top: 10%;
+	height: 100vh;
 }
-.showcase h1 {
-  font-size: 4em;
+.showcase h1{
+	font-size: 5em;
 }
-.showcase p {
-  font-size: 4.5em;
+.showcase p{
+	font-size: 5em;
 }
-.showcase i {
-  font-size: 1em;
+.showcase i{
+	font-size: 2em;
 }
-.showcase span:first-child,
-.about-me-heading span:first-child {
+.showcase a{
+	color: #ff9001;
+}
+.showcase span:first-child, .about-me-heading span:first-child {
   color: #ff9001;
   text-shadow: -1px -1px 0 #ff9001, 1px -1px 0 #ff9001, -1px 1px 0 #ff9001,
     1px 1px 0 #ff9001;
 }
-.showcase span:last-child,
-.about-me-heading span:last-child {
+.showcase span:last-child, .about-me-heading span:last-child {
   color: white;
   text-shadow: -1px -1px 0 #ff9001, 1px -1px 0 #ff9001, -1px 1px 0 #ff9001,
     1px 1px 0 #ff9001;
@@ -45,18 +46,26 @@ body {
 	text-decoration: none;
 	padding:  10px 16px;
 }
+footer a{
+	color: #ff9001;
+}
+footer i{
+	font-size: 2em;
+}
+
 @media screen and (max-width: 876px) {
 	.showcase {
-	  padding: 20%;
+		padding-top: 10%;
+		height: auto;
 	}
-	.showcase h1 {
-	  font-size: 2em;
+	.showcase h1{
+		font-size: 3em;
 	}
-	.showcase p {
-	  font-size: 2.5em;
+	.showcase p{
+		font-size: 1.5em;
 	}
-	.showcase i {
-	  font-size: 1em;
+	.showcase i{
+		font-size: 1em;
 	}
 	.about-me-heading {
 	  margin-top: 20px;
