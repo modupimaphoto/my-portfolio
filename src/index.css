@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
 body {
   font-family: monospace;
+}
+.showcase {
+  height: 100vh;
+  padding: 10%;
+}
+.showcase h1 {
+  font-size: 4em;
+}
+.showcase p {
+  font-size: 4.5em;
+}
+.showcase span:first-child,
+.about-me-heading span:first-child {
+  color: #ff9001;
+  text-shadow: -1px -1px 0 #ff9001, 1px -1px 0 #ff9001, -1px 1px 0 #ff9001,
+    1px 1px 0 #ff9001;
+}
+.showcase span:last-child,
+.about-me-heading span:last-child {
+  color: white;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+  font-weight: bold;
+}
+.about-me-heading {
+  margin-top: 70px;
+}
+.about-me-text {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.name,
+.email a,
+i {
+  color: #ff9001;
 }

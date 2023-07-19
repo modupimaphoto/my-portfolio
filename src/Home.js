@@ -1,4 +1,61 @@
+import personal_avatar from "./assets/img/personal_avatar.png";
 const Home = () => {
-  return <></>;
+  return (
+    <>
+      <section className="showcase">
+        <div className="container text-center">
+          <h1>Hello, I'm</h1>
+          <p>
+            <span>Frontend</span> <span>Developer</span>
+          </p>
+          <p>
+            <ul className="p-0">
+              <li className="list-inline-item mx-4">
+                <a
+                  className="text-decoration-none mx-2"
+                  href="mailto:modupimaphoto@gmail.com"
+                >
+                  <i className="fa-regular fa-envelope"></i>
+                </a>
+              </li>
+              <li className="list-inline-item mx-4">
+                <i class="fa-brands fa-facebook"></i>
+              </li>
+              <li className="list-inline-item mx-4">
+                <i class="fa-brands fa-instagram"></i>
+              </li>
+            </ul>
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5">
+              <img
+                src={personal_avatar}
+                alt="Personal Avatar"
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-md-7">
+              <h1 className="pt-5 about-me-heading">
+                <span>About</span> <span>Me</span>
+              </h1>
+              <p className="about-me-text">
+                My Name is <span>Modupi</span>, I'm creative and skilled Front
+                End Developer with experience in HTML, CSS, JavaScript, React,
+                MySQL and Bootstrap. I have experience in developing responsive
+                websites and web applications. I am passionate about creating
+                user-friendly interfaces and I am always looking for new
+                challenges to improve my skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 export default Home;
